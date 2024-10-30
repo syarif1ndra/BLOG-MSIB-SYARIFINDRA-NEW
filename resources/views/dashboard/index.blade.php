@@ -3,9 +3,7 @@
 @section('content')
     <h1 class="mb-4 text-success">Welcome to Your MSIB Blog Home Page</h1>
 
-    <!-- Total Cards Section -->
     <div class="row mb-4">
-        <!-- Total Categories Card -->
         <div class="col-md-4">
             <div class="card text-white" style="background-color: #4caf50; border-radius: 10px;">
                 <div class="card-body d-flex align-items-center">
@@ -18,7 +16,6 @@
             </div>
         </div>
 
-        <!-- Total Posts Card -->
         <div class="col-md-4">
             <div class="card text-white" style="background-color: #388e3c; border-radius: 10px;">
                 <div class="card-body d-flex align-items-center">
@@ -31,7 +28,6 @@
             </div>
         </div>
 
-        <!-- Total Authors Card -->
         <div class="col-md-4">
             <div class="card text-white" style="background-color: #66bb6a; border-radius: 10px;">
                 <div class="card-body d-flex align-items-center">
@@ -45,10 +41,8 @@
         </div>
     </div>
 
-    <!-- Recent Tables Section -->
     <div class="row">
         <div class="col-lg-8 mb-4">
-            <!-- Recent Posts Table -->
             <div class="card border-0 shadow" style="border-radius: 10px;">
                 <div class="card-header bg-success text-white d-flex justify-content-between align-items-center" style="border-radius: 10px 10px 0 0;">
                     <h5 class="mb-0">Recent Posts</h5>
@@ -84,7 +78,6 @@
         </div>
 
         <div class="col-lg-4 mb-4">
-            <!-- Recent Categories Table -->
             <div class="card border-0 shadow" style="border-radius: 10px;">
                 <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center" style="border-radius: 10px 10px 0 0;">
                     <h5 class="mb-0">Recent Categories</h5>
@@ -114,7 +107,6 @@
         </div>
 
         <div class="col-lg-4 mb-4">
-            <!-- Recent Authors Table -->
             <div class="card border-0 shadow" style="border-radius: 10px;">
                 <div class="card-header bg-success text-white d-flex justify-content-between align-items-center" style="border-radius: 10px 10px 0 0;">
                     <h5 class="mb-0">Recent Authors</h5>
@@ -149,13 +141,13 @@
 
 <style>
     body {
-        background-color: #e8f5e9; /* Latar belakang halaman hijau lembut */
+        background-color: #e8f5e9; 
     }
     h1, h5 {
         color: #2e7d32;
     }
     .table-hover tbody tr:hover {
-        background-color: #c8e6c9; /* Warna latar belakang saat hover */
+        background-color: #c8e6c9;
     }
     .badge {
         font-size: 0.85rem;

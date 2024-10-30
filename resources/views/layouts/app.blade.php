@@ -14,36 +14,34 @@
         body {
             display: flex;
             flex-direction: column;
-            background-color: #e9f5e9; /* Background hijau muda */
+            background-color: #e9f5e9; 
         }
 
-        /* Navbar */
         .navbar {
-            background-color: #004d00; /* Warna hijau gelap untuk navbar */
+            background-color: #004d00;
             padding: 1rem 2rem;
         }
 
         .navbar-brand {
-            color: #ffffff; /* Warna teks putih */
+            color: #ffffff; 
             font-weight: bold;
             font-size: 1.6rem;
         }
 
         .navbar-brand:hover {
-            color: #f0f0f0; /* Warna hover untuk navbar */
+            color: #f0f0f0; 
         }
 
         .nav-link {
-            color: #ffffff !important; /* Warna link putih */
+            color: #ffffff !important; 
         }
 
         .nav-link:hover {
-            color: #b3ffcc !important; /* Warna hover hijau muda */
+            color: #b3ffcc !important;
         }
 
-        /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #006400, #004d00); /* Gradasi hijau gelap */
+            background: linear-gradient(135deg, #006400, #004d00); 
             color: white;
             height: 50vh;
             display: flex;
@@ -67,13 +65,12 @@
             to { opacity: 1; }
         }
 
-        /* Card Styling */
         .card {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s, box-shadow 0.3s;
             border: none;
             border-radius: 1rem;
-            background-color: #ffffff; /* Warna putih untuk card */
+            background-color: #ffffff; 
             padding: 1rem;
         }
 
@@ -90,27 +87,25 @@
 
         .card-title a {
             text-decoration: none;
-            color: #004d00; /* Warna hijau gelap */
+            color: #004d00; 
             font-weight: bold;
         }
 
         .card-title a:hover {
-            color: #006400; /* Warna hijau terang saat hover */
+            color: #006400; 
         }
 
-        /* Button Styling */
         .btn-primary {
-            background-color: #007f00; /* Warna hijau untuk tombol */
+            background-color: #007f00; 
             border: none;
         }
 
         .btn-primary:hover {
-            background-color: #005600; /* Warna hijau gelap saat hover */
+            background-color: #005600; 
         }
 
-        /* Footer */
         footer {
-            background-color: #004d00; /* Warna hijau gelap untuk footer */
+            background-color: #004d00; 
             color: white;
             padding: 2rem 0;
             text-align: center;
@@ -123,7 +118,7 @@
         }
 
         footer a:hover {
-            color: #b3ffcc; /* Warna hijau muda saat hover */
+            color: #b3ffcc;
         }
 
         footer p {

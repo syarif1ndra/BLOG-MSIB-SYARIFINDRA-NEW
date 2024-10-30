@@ -5,7 +5,6 @@
 @section('content')
     <div class="container my-5">
         <div class="row justify-content-center">
-            <!-- Detail Post -->
             <div class="col-lg-8">
                 <div class="card shadow-lg">
                     @if ($post->image)
@@ -40,7 +39,6 @@
                 </div>
             </div>
 
-            <!-- Artikel Lainnya -->
             <div class="col-lg-4">
                 <h3 class="mb-4 text-success">Lihat Artikel Lainnya</h3>
                 @foreach ($posts as $relatedPost)

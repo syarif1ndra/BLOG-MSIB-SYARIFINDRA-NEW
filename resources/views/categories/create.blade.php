@@ -30,7 +30,6 @@
             <form action="{{ route('categories.store') }}" method="POST">
                 @csrf
 
-                <!-- Name -->
                 <div class="mb-3">
                     <label for="name" class="form-label fw-bold"><i class="bi bi-card-text"></i> Name</label>
                     <input type="text" name="name" id="name" class="form-control form-control-lg @error('name') is-invalid @enderror" 
@@ -42,7 +41,6 @@
                     @enderror
                 </div>
 
-                <!-- Description -->
                 <div class="mb-3">
                     <label for="description" class="form-label fw-bold"><i class="bi bi-file-earmark-text"></i> Description</label>
                     <input type="text" name="description" id="description" class="form-control form-control-lg @error('description') is-invalid @enderror" 
@@ -54,7 +52,6 @@
                     @enderror
                 </div>
 
-                <!-- Submit Button -->
                 <div class="text-center">
                     <button type="submit" class="btn btn-success btn-lg rounded-pill">
                         <i class="bi bi-save"></i> Submit

@@ -48,19 +48,19 @@
 
 <style>
     body {
-        background-image: url('path_to_your_background_image.jpg'); /* Ganti dengan path gambar latar belakang yang sesuai */
+        background-image: url('path_to_your_background_image.jpg'); 
         background-size: cover;
         background-position: center;
-        color: white; /* Warna teks putih untuk kontras */
+        color: white; 
         font-family: 'Arial', sans-serif;
     }
     .card {
-        border-radius: 15px; /* Sudut kartu yang lebih melengkung */
+        border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s;
     }
     .card:hover {
-        transform: translateY(-5px); /* Efek hover pada kartu */
+        transform: translateY(-5px); 
     }
     .input-group-text {
         background-color: #006600;
@@ -74,7 +74,7 @@
     .btn-primary:hover {
         background-color: #006600;
         border-color: #006600;
-        transform: scale(1.05); /* Efek zoom pada tombol saat hover */
+        transform: scale(1.05);
     }
 </style>
 @endsection

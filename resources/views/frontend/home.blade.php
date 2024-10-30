@@ -14,7 +14,7 @@
             display: flex;
             flex-direction: column;
             overflow: hidden;
-            background-color: #f9f9f9; /* Ganti latar belakang kartu */
+            background-color: #f9f9f9; 
         }
 
         .card:hover {
@@ -33,22 +33,22 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #e7f9e7; /* Ganti latar belakang body kartu menjadi hijau muda */
+            background-color: #e7f9e7;
         }
 
         .card-title a {
-            color: #28a745; /* Ganti warna judul menjadi hijau */
+            color: #28a745; 
             font-weight: bold;
             font-size: 1.5rem;
             text-decoration: none;
         }
 
         .card-title a:hover {
-            color: #218838; /* Ganti warna hover menjadi lebih gelap */
+            color: #218838; 
         }
 
         .btn-primary {
-            background-color: #28a745; /* Ganti warna tombol menjadi hijau */
+            background-color: #28a745; 
             border: none;
             padding: 12px 24px;
             font-size: 1rem;
@@ -58,18 +58,16 @@
         }
 
         .btn-primary:hover {
-            background-color: #218838; /* Ganti warna hover tombol menjadi lebih gelap */
+            background-color: #218838; 
         }
 
-        /* Membuat semua kartu memiliki tinggi yang sama */
         .card-wrapper {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
-            margin-bottom: 50px; /* Jarak antara card dan footer */
+            margin-bottom: 50px; 
         }
 
-        /* Responsif */
         @media (max-width: 992px) {
             .card-wrapper {
                 grid-template-columns: repeat(2, 1fr);

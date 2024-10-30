@@ -22,7 +22,6 @@
             <form action="{{ route('authors.store') }}" method="POST" class="needs-validation" novalidate>
                 @csrf
 
-                <!-- Name Field -->
                 <div class="form-group mb-4">
                     <label for="name" class="form-label fw-bold"><i class="bi bi-person-fill"></i> Name</label>
                     <input type="text" name="name" class="form-control form-control-lg rounded-pill @error('name') is-invalid @enderror" id="name" placeholder="Enter author name" required>
@@ -33,7 +32,6 @@
                     @enderror
                 </div>
 
-                <!-- Email Field -->
                 <div class="form-group mb-4">
                     <label for="email" class="form-label fw-bold"><i class="bi bi-envelope-fill"></i> Email</label>
                     <input type="email" name="email" class="form-control form-control-lg rounded-pill @error('email') is-invalid @enderror" id="email" placeholder="Enter author email" required>
@@ -44,7 +42,6 @@
                     @enderror
                 </div>
 
-                <!-- Bio Field -->
                 <div class="form-group mb-4">
                     <label for="bio" class="form-label fw-bold"><i class="bi bi-card-text"></i> Bio</label>
                     <textarea name="bio" class="form-control form-control-lg rounded-3 @error('bio') is-invalid @enderror" id="bio" rows="4" placeholder="Write a short bio..." required></textarea>
@@ -55,7 +52,6 @@
                     @enderror
                 </div>
 
-                <!-- Submit and Back Buttons -->
                 <div class="d-flex justify-content-between">
                     <a href="{{ route('authors.index') }}" class="btn btn-outline-secondary btn-lg rounded-pill px-4"><i class="bi bi-arrow-left"></i> Back</a>
                     <button type="submit" class="btn btn-success btn-lg rounded-pill px-5"><i class="bi bi-check-circle-fill"></i> Submit</button>

@@ -69,20 +69,20 @@
 
 <style>
     body {
-        background-image: url('path_to_your_background_image.jpg'); /* Ganti dengan path gambar latar yang sesuai */
+        background-image: url('path_to_your_background_image.jpg'); 
         background-size: cover;
         background-position: center;
-        color: rgb(255, 255, 255); /* Warna teks putih untuk kontras */
+        color: rgb(255, 255, 255); 
         font-family: 'Arial', sans-serif;
     }
     .card {
-        background: rgba(255, 255, 255, 0.95); /* Latar belakang kartu lebih cerah */
+        background: rgba(255, 255, 255, 0.95); 
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         transition: transform 0.3s;
     }
     .card:hover {
-        transform: translateY(-5px); /* Efek hover */
+        transform: translateY(-5px); 
     }
     .btn-primary {
         background-color: #006600;
@@ -96,7 +96,7 @@
     .input-group-text {
         background-color: #006600;
         color: white;
-        border-radius: 10px 0 0 10px; /* Rounded corners for input group */
+        border-radius: 10px 0 0 10px; 
     }
     .form-check-label {
         color: #6c757d;
@@ -106,7 +106,7 @@
     }
     .link-primary:hover {
         color: #006600;
-        text-decoration: underline; /* Underline on hover */
+        text-decoration: underline; 
     }
 </style>
 @endsection
